@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoatalk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>05:46</span>
+        </div>
+        <div class="status-bar__column">
+            <span>1%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i><!-- barttery Icon -->
+            <i class="fas fa-bolt"></i><!-- Lighting Icon -->
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to kokoa Talk</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+    <form id="login-form"> <!-- 이거 만들때 로그인 form이 별로 없을거 같아서 class가 아니라 걍 id를 쓴것 -->
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    
+    <script src="https://kit.fontawesome.com/573f8676b8.js" crossorigin="anonymous">     
+    </script>
+</body>
+</html>
