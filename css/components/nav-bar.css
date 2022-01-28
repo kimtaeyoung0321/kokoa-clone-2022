@@ -12,7 +12,6 @@ nav {
     justify-content: space-between;
 }
 .nav__link {
-    color: #2e363e;
     position: relative;
 }
 .nav__notification {
