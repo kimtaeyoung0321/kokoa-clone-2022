@@ -26,9 +26,9 @@
         <h1 class="welcome-header__title">Welcome to kokoa Talk</h1>
         <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
     </header>
-    <form id="login-form"> <!-- 이거 만들때 로그인 form이 별로 없을거 같아서 class가 아니라 걍 id를 쓴것 -->
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="Password"/>
+    <form action="friends.html" method="get" id="login-form"> <!-- 이거 만들때 로그인 form이 별로 없을거 같아서 class가 아니라 걍 id를 쓴것 -->
+        <input name="username" type="text" placeholder="Email or phone number"/>
+        <input name="password" type="password" placeholder="Password"/>
         <input type="submit" value="Log In"/>
         <a href="#">Find Kokoa Account or Password</a>
     </form>
