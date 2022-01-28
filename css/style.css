@@ -4,11 +4,13 @@
 
 /*components*/
 @import "components/status-bar.css";
-
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 /*screens*/
 @import "screens/welcome.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    height: 1000vh;
 }
 

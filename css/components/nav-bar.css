@@ -1,0 +1,42 @@
+nav {
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    color: #2e363e;
+    position: relative;
+}
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    right: -13px;
+    bottom: 13px;
+}
+.nav__dot {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: tomato;
+    left: 30px;
+    top: -10px;
+    font-display: none;
+}
+
