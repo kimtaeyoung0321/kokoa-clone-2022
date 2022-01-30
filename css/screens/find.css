@@ -1,0 +1,41 @@
+.settingicon-reddot{
+    position: relative;
+}
+.icon-reddot {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: tomato;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.find-icons__icon {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.find-icons__icon i {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.recommended-friends {
+    border-top: var(--border-bottom);
+    border-bottom: var(--border-bottom);
+    padding: 18px 0px;
+    margin: 20px 0px;
+    font-size: 14px;
+    color: var( --half-opacity);
+}
+.recommended-friends span {
+    display: block;
+    margin: 100px 0px;
+    text-align: center;
+    color: var( --half-opacity);
+}
+

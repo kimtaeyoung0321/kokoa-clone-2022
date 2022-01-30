@@ -1,4 +1,6 @@
 :root {
     --yellow:#fae100;
     --horizontal-spane: 25px;
+    --border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    --half-opacity: rgba(0, 0, 0, 0.5);
 }

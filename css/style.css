@@ -10,6 +10,7 @@
 /*screens*/
 @import "screens/welcome.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
