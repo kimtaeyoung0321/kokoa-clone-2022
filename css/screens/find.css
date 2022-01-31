@@ -1,29 +1,4 @@
-.settingicon-reddot{
-    position: relative;
-}
-.icon-reddot {
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    background-color: tomato;
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-}
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-    
-}
-.find-icons__icon {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.find-icons__icon i {
-    font-size: 30px;
-    margin-bottom: 18px;
-}
+
 .recommended-friends {
     border-top: var(--border-bottom);
     border-bottom: var(--border-bottom);
@@ -39,3 +14,74 @@
     color: var( --half-opacity);
 }
 
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+.open-chat__header span {
+    color: var(--half-opacity);
+}
+.open-post {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.open-post__title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.open-post__members {
+    display: flex;
+    align-items: center;
+}
+.open-post__members-count{
+    opacity: 0.5;
+    font-size: 14px;
+}
+.divider {
+    width: 1px;
+    height: 10px;
+    margin: 0px 7px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+.open-post__members-status{
+    font-size: 14px;
+    color: #FFB0E0;
+}
+.open-post__members img {
+    width: 16px;
+    height: 16px;
+    border-radius: 12px;
+    margin-right: 4px;
+}
+.open-post__column-bts {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.open-post__hashtags {
+    text-decoration: none;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.open-post__column-heart {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    border-radius: 20px;
+    width: 50%;
+    position: absolute;
+    bottom: 6px;
+    left: 34px;
+    text-align: center;
+    color: white;
+}
+.open-post__column {
+    position: relative;
+}
+.open-post2 {
+    border-top: var(--border-bottom);
+    padding-top: 12px;
+}

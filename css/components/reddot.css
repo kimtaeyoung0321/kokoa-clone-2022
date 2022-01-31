@@ -1,0 +1,24 @@
+.settingicon-reddot{
+    position: relative;
+}
+.icon-reddot {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: tomato;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.more-reddot {
+    width: 6px;
+    height: 6px;
+    border-radius:3px;
+    background-color: tomato;
+    position: absolute;
+    left: 50px;
+    bottom: 63px;
+}
+.more-reddot-father {
+    position: relative;
+}
