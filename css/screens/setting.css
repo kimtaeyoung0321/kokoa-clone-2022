@@ -1,0 +1,26 @@
+.settings-setting {
+    padding: 20px 0px;
+    border-bottom: var(--border-bottom);
+    border-color:rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+.settings-setting i {
+    margin-right: 15px;
+}
+.settings-setting:last-child {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+}
+.settings-setting_column span, .settings-setting__column {
+    color: var(--half-opacity);
+}
+.settings-setting:nth-child(6) {
+    display: flex;
+    justify-content: space-between;
+}
+.settings-setting-reallast {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.fa-phone-square-alt { margin-right: 15px; }

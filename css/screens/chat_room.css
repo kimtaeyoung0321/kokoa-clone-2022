@@ -1,0 +1,44 @@
+.fa-search {
+    margin-right: 10px;
+}
+#chat-screen alt-header { z-index: 1;}
+#chat-screen .status-bar { z-index: 2; }
+#chat-screen .alt-header,
+#chat-screen .status-bar
+{
+    top: 0;
+    background-color: #abc1d1;
+}
+#chat-screen {
+    background-color: #abc1d1;
+}
+#chat-screen .alt-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main-chat {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 10px 5px;
+    border-radius: 25px;
+}
+.message-row {
+    width: 100%;
+    display: flex;
+}
+.message__box {
+    background-color: white;
+}
+.message-row img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
